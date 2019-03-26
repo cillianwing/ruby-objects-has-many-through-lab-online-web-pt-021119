@@ -16,7 +16,7 @@ class Artist
   end
   
   def songs 
-    
+    Song.all.select { |x|
   end
   
   def genres 
